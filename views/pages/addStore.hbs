@@ -1,0 +1,22 @@
+<form action="/addStore" method="POST" enctype="multipart/form-data">
+    <h2>ADD SHOP</h2>
+    <div>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id='name' placeholder="name">
+    </div>
+    <div>
+        <label for="description">Description :</label>
+        <textarea id='description' name="description" placeholder="description"></textarea>
+    </div>
+    <div>
+        <label for="location[address]">Address :</label>
+        <input type="text" name="location[address]" id='location[address]' placeholder="Address">
+    </div>
+    <div>
+        <label for="photo">Share your photo:</label>
+        <input type="file" name="photo" id="photo">
+    </div>
+    
+    <button type="reset">CANCEL</button>
+    <button type="submit">ADD SHOP</button>
+</form>
